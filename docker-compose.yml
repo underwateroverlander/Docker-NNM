@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  nnm:
+    image: nnm-image
+    hostname: nnm.local
+    container_name: nnm-local
+    ports:
+      - "8835:8835"
+    volumes:
+      - tenablennmdata:/opt/nnm/
+    volumes:
+      - tenableyumcache:/var/cache/yum
+    tmpfs:
+      - /tmp:mode=1770,size=21474836480
+      - /run
+volumes:
+  tenablennmdata:
+    name: tenablennmdata
+  tenableyumcache:
+    name: tenableyumcache
+
