@@ -1,8 +1,10 @@
 # Demo NNM 
 
-2/16/2022 - v1.0
-2/17/2022 - v1.1
-3/16/2022 - v2
+2/16/2022 - v1.0 <br/>
+2/17/2022 - v1.1 <br/>
+3/16/2022 - v2.0 <br/>
+3/25/2022 - v2.1 <br/>
+
 
 Please note that as this is a network sniffer, you will either need to attach a second interface with mirrored traffic or run the container in privileged mode to listen to the physical interface. 
 
@@ -21,7 +23,7 @@ You should have python3 installed, and can check this by opening terminal and ty
     cd <folder where saved>
     python3 nnm.py
 
-You will be prompted to press enter and input an activation code. The full installation should be completed within 3 minutes of launch, and you can access the container once it's up using command "docker exec -it nnm-labbox /bin/bash" from within your terminal to drop in as root. 
+You will be prompted to press enter and input an activation code. The full installation should be completed within 3 minutes of launch, and you can access the container once it's up using command "docker exec -it nnm-local /bin/bash" from within your terminal to drop in as root. 
 
 The GUI can be accessed at https://localhost:8835 from your browser. 
 admin:password
