@@ -4,7 +4,7 @@
 2/17/2022 - v1.1
 3/16/2022 - v2
 
-Please note that as this is a network sniffer, you will either need to attach a second interface with mirrored traffic or run the container in privileged mode to listen to the physical interface. By default, it is connected to the Labbox network, so if you want to integrate the two feel free to run through the process.
+Please note that as this is a network sniffer, you will either need to attach a second interface with mirrored traffic or run the container in privileged mode to listen to the physical interface. 
 
 # Repository
 
@@ -12,7 +12,7 @@ The github repository for the build files is located [here](https://github.com/u
 
 # Before We Begin
 
-Please ensure that the directory is moved out of Downloads and placed somewhere more appropriate such as Documents. Before beginning installation, go ahead and retrieve a Standalone NNM Activation Code unless you intend to manage it through a Tenable.sc instance. The hostname will be nnm.local, but feel free to change it. Later iterations will include a script to automatically add it to Tenable.sc using the pyTenable suite.
+Please ensure that the directory is moved out of Downloads and placed somewhere more appropriate such as Documents. Before beginning installation, go ahead and retrieve a standalone NNM Activation Code from your Tenable Community portal unless you intend to manage it through a Tenable.sc instance. The hostname will be nnm.local, but feel free to change it. Later iterations will include a script to automatically add it to Tenable.sc using the pyTenable suite.
 
 # Usage
 
@@ -28,7 +28,7 @@ admin:password
 
 # Deviations
 
-This NNM is configured with complex password requirements turned off and a monitored range of 0.0.0.0. Please update to reflect your needs. Stay tuned for more!
+This NNM is configured with complex password requirements turned off, password set to password, a monitored range of 0.0.0.0, and monitor mode enabled. Please update to reflect your needs. Stay tuned for more!
 
 # Future Builds
 

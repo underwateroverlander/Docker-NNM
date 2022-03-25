@@ -8,7 +8,6 @@ services:
       - "8835:8835"
     volumes:
       - tenablennmdata:/opt/nnm/
-    volumes:
       - tenableyumcache:/var/cache/yum
     tmpfs:
       - /tmp:mode=1770,size=21474836480
